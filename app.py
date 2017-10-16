@@ -17,8 +17,8 @@ def sms():
  
 
 
-account_sid = "AC5ccfa100339e3935f8159448cb57e50f"
-auth_token = "4422619d51ea241335647acac2e2ce84"
+account_sid = "account sid"
+auth_token = "auth token"
 client = Client(account_sid, auth_token)
 
 call = client.api.account.calls\
